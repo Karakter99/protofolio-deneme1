@@ -36,3 +36,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+You have to install Tailwindcss to use className commands in your code. 
+
+```
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+```
+1 - after installing tailwindcss  go to `tailwind.config.js`  and add this code to content :
+content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+ 
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  
+ 2 - then go to `global.css` and add this code :
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+3 - the simply run : 
+```
+npm run dev
+```
+[`Tailwind installation`] (https://tailwindcss.com/docs/guides/nextjs) you can check this. 
+
