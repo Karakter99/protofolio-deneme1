@@ -1,5 +1,5 @@
 import Image from "next/image";
-import resim from "/Users/yakupakyniyazov/Desktop/MyApps/pr6/public/resim.png";
+import resim from "../../public/resim.png";
 import {
   BsTelephoneFill,
   BsTelephone,
