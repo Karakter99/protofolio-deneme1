@@ -39,25 +39,22 @@ export default function Home() {
                 Yakup Akyniyazov
               </h2>
               <h3 className="text-xl py-2 font-medium md:text-2xl lg:text-4xl dark:text-white">
-                WEB3 Full Stack Developer
+                Junior Data Analyst
               </h3>
               <p className="text-center px-10 text-gray-700 max-w-xl mx-auto  dark:text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent vehicula, augue ac posuere cursus, sapien mauris
-                sagittis tortor, mollis malesuada augue odio id ante. Vestibulum
-                congue, augue ut lobortis aliquet, metus dui fringilla lacus,
-                sollicitudin rhoncus sapien lacus ut est. Aenean velit ex,
-                auctor laoreet justo eu, semper tincidunt ex.
+              I am a self-taught data analyst with a passion for continuous learning and growth. 
+              Through dedication and self-motivation, I have honed my skills in data analysis and progressed to become a proficient machine learning engineer.
+              I am committed to ongoing improvement and staying updated with the latest advancements in the field.
               </p>
             </div>
             <div className="flex text-5xl justify-center gap-12 text-gray-600 py-3  dark:text-white">
               <Link href="#" className="cursor-pointer">
                 <AiFillTwitterCircle />
               </Link>
-              <Link href="#" className="cursor-pointer">
+              <Link href="https://www.linkedin.com/in/yakup-akiniyazov-5443b5210/" className="cursor-pointer">
                 <AiFillLinkedin />
               </Link>
-              <Link href="#" className="cursor-pointer">
+              <Link href="https://www.youtube.com/@analist7608" className="cursor-pointer">
                 <AiFillYoutube />
               </Link>
             </div>
@@ -71,17 +68,9 @@ export default function Home() {
           <section>
             <div className="max-w-xl mx-auto text-center  dark:text-white">
               <h1 className="text-3xl py-5">Services that I offer</h1>
-              <p>
-                Since the beginning of my journey as a freelance designer and
-                developer, I've done remote work for
-                <span className="text-teal-500"> agencies </span>
-                consulted for <span className="text-teal-500">startups </span>
-                and collaborated with talanted people to create digital products
-                for both business and consumer use.
-              </p>
               <p className="text-md py-2  text-gray-800  dark:text-white">
-                I offer from a wide range of services, including brand design,
-                programming and teaching.
+                I offer from a wide range of services, data Analyzing,
+                cleaning, visualizing and teaching.
               </p>
             </div>
             <div className="lg:flex lg:gap-10 md:flex md:gap-6  dark:text-white">
@@ -93,19 +82,19 @@ export default function Home() {
                   height={100}
                 />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Beautiful designs{" "}
+                  Data Visualization{" "}
                 </h3>
                 <p className="py-2">
-                  Creating elegant designs suited for your needs following core
+                  Creating elegant visualizations suited for your needs following core
                   design theory.
                 </p>
                 <h4 className="py-4 text-teal-600">Coding languages: </h4>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  Javascripts(NextJs)
+                  Seaborn
                 </p>
-                <p className="text-gray-800 py-1 dark:text-white">Solidity</p>
+                <p className="text-gray-800 py-1 dark:text-white">PowerBI</p>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  Tailwindcss
+                  Matplotlib
                 </p>
               </div>
 
@@ -117,19 +106,20 @@ export default function Home() {
                   height={100}
                 />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Beautiful designs{" "}
+                  Cleaning Data{" "}
                 </h3>
                 <p className="py-2">
-                  Creating elegant designs suited for your needs following core
-                  design theory.
+                  Cleaning the messy data with magic
                 </p>
                 <h4 className="py-4 text-teal-600">Coding languages: </h4>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  Javascripts(NextJs)
+                  Pandas
                 </p>
-                <p className="text-gray-800 py-1 dark:text-white">Solidity</p>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  Tailwindcss
+                  Numpy
+                  </p>
+                <p className="text-gray-800 py-1 dark:text-white">
+                  PowerBI
                 </p>
               </div>
 
@@ -141,19 +131,18 @@ export default function Home() {
                   height={100}
                 />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Beautiful designs{" "}
+                  Teaching{" "}
                 </h3>
                 <p className="py-2">
-                  Creating elegant designs suited for your needs following core
-                  design theory.
+                  Teaching important informations about data analyst.
                 </p>
-                <h4 className="py-4 text-teal-600">Coding languages : </h4>
+                <h4 className="py-4 text-teal-600">Equipments I use: </h4>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  Javascripts(NextJs)
+                  Online Classes
                 </p>
-                <p className="text-gray-800 py-1 dark:text-white">Solidity</p>
+                <p className="text-gray-800 py-1 dark:text-white">Real Life Projects</p>
                 <p className="text-gray-800 py-1 dark:text-white">
-                  Tailwindcss
+                  Helping with CV
                 </p>
               </div>
             </div>
@@ -162,18 +151,6 @@ export default function Home() {
           <section>
             <div className="dark:text-white text-center max-w-xl mx-auto">
               <h1 className="text-3xl py-5 ">Portofolio</h1>
-              <p>
-                Since the beginning of my journey as a freelance designer and
-                developer, I've done remote work for
-                <span className="text-teal-500"> agencies </span>
-                consulted for <span className="text-teal-500">startups </span>
-                and collaborated with talanted people to create digital products
-                for both business and consumer use.
-              </p>
-              <p className="text-md py-2 text-gray-800">
-                I offer from a wide range of services, including brand design,
-                programming and teaching.
-              </p>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1">

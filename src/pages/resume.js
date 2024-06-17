@@ -43,7 +43,7 @@ const Resume = ({ darkMode, setDarkMode }) => {
                   Yakup Akyniyazov
                 </h2>
                 <h3 className="text-l py-2 font-medium md:text-xl pt-3 lg:text-2xl dark:text-white">
-                  WEB3 Full Stack Developer
+                  Junior Data Analyst
                 </h3>
               </div>
               <div>
@@ -67,9 +67,10 @@ const Resume = ({ darkMode, setDarkMode }) => {
                     )}
 
                     <p className="pl-2 font-fira dark:text-white">
-                      +(90)5319440399
+                      +(40)773750608
                     </p>
                   </li>
+                  {/*
                   <li className="flex py-2">
                     {darkMode ? (
                       <BsFlag className="pt-1 text-2xl text-white" />
@@ -81,6 +82,7 @@ const Resume = ({ darkMode, setDarkMode }) => {
                       Turkmenistan
                     </p>
                   </li>
+                 
                   <li className="flex py-2">
                     {darkMode ? (
                       <BsCalendar3Week className="pt-1 text-2xl text-white" />
@@ -102,6 +104,8 @@ const Resume = ({ darkMode, setDarkMode }) => {
                       Istanbul, Turkey
                     </p>
                   </li>
+                   */}
+                  {/*  LINKS */}   
                   <li className="text-3xl flex pt-3">
                     <a
                       href="https://www.linkedin.com/in/yakup-akiniyazov-5443b5210/"
@@ -119,6 +123,7 @@ const Resume = ({ darkMode, setDarkMode }) => {
                 </ul>
               </div>
             </div>
+            {/*  IMAGE  */}  
             <div>
               <Image
                 src={resim}
@@ -127,7 +132,92 @@ const Resume = ({ darkMode, setDarkMode }) => {
                 className="rounded-3xl"
               />
             </div>
+
           </div>
+
+          {/*  Professional Expreience  */}  
+          <div className="py-5">
+            <div className="flex">
+              <BiBookReader className="text-5xl" />
+              <h2 className="text-4xl px-5 font-anton text-teal-400">
+                Professional Experience
+              </h2>
+            </div>
+            <div>
+              <ul>
+                <li className="flex justify-between py-3">
+                  <div>
+                    <p className="font-bold dark:text-white">Internship</p>
+                    <p className="italic dark:text-white">
+                      Aksaray Mahmudiye Middle Scholl
+                    </p>
+                    <p className="text-gray-800 dark:text-white">
+                      Worked as a Teacher
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-gray-800 dark:text-white">
+                      02/2022 – 05/2022
+                    </p>
+                    <p className="text-gray-800 dark:text-white">
+                      Istanbul, Turkey
+                    </p>
+                  </div>
+                </li>
+                <li className="flex justify-between py-3">
+                  <div>
+                    <p className="font-bold dark:text-white">Internship</p>
+                    <p className="italic  dark:text-white">
+                      Gazi Imam Hatip Middle Scholl
+                    </p>
+                    <p className="text-gray-800 dark:text-white">
+                      Worked as a Teacher
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="text-gray-800 dark:text-white">
+                      09/2021 – 01/2022
+                    </p>
+                    <p className="text-gray-800 dark:text-white">
+                      Istanbul, Turkey
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/*  TECHNICAL SKILLS  */}  
+          <div className="py-5">
+          <div className="flex">
+              <GiNinjaHead className="text-5xl" />
+              <h2 className="text-4xl px-5 font-anton text-teal-400">TECHNICAL SKILLS</h2>
+            </div>
+            <div className="grid gap-x-72 grid-cols-2 py-5">
+              <div className="">
+                <p className="font-bold dark:text-white">
+                  Database Server
+                </p>
+                <p className="italic dark:text-white">
+                SQL
+                </p>
+              </div>
+              <div className="">
+                <p className="font-bold dark:text-white">Programming Language</p>
+                <p className="italic dark:text-white">Python,OpenCv, Django, Javascript, HTML, CSS, Next.js,
+                    Solidity, Data Visualization, Data Analyst, Web Scrapping,
+                    Machine Learning.
+                </p>
+              </div>
+              <div className="">
+                <p className="font-bold dark:text-white">Other Software Tools</p>
+                <p className="italic dark:text-white">PowerBI,Excel</p>
+              </div>
+            </div>
+          </div>
+
+          {/*  EDUCATIONS  */}  
           <div className="py-5">
             <div className="flex">
               <MdSchool className="text-5xl" />
@@ -136,6 +226,30 @@ const Resume = ({ darkMode, setDarkMode }) => {
               </h2>
             </div>
             <div>
+              {/*  Politechinca  */}  
+            <li className="flex justify-between py-3">
+                  <div>
+                    <p className="font-bold dark:text-white">
+                      Master Degree on DataBase
+                    </p>
+                    <p className="italic dark:text-white">
+                      Politehnica University of Bucharest 
+                    </p>
+                    <p className="text-gray-800 dark:text-white">
+                    Faculty of Automatic Control and Computer Science
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="text-gray-800 dark:text-white">
+                      09/2024 - Now
+                    </p>
+                    <p className="text-gray-800 dark:text-white">
+                      Bucharest ,Romania
+                    </p>
+                  </div>
+                </li>
+                  {/*  Istanbul University  */}  
               <ul>
                 <li className="flex justify-between py-3">
                   <div>
@@ -155,6 +269,8 @@ const Resume = ({ darkMode, setDarkMode }) => {
                     </p>
                   </div>
                 </li>
+
+                 {/*  Cerrahpasaha  */}  
                 <li className="flex justify-between py-3">
                   <div>
                     <p className="font-bold dark:text-white">
@@ -178,8 +294,9 @@ const Resume = ({ darkMode, setDarkMode }) => {
                     </p>
                   </div>
                 </li>
-
-                <li className="flex justify-between py-3">
+                {/*  High School  */}  
+               {/*  
+               <li className="flex justify-between py-3">
                   <div>
                     <p className="font-bold dark:text-white">High School</p>
                     <p className="italic dark:text-white">
@@ -196,10 +313,14 @@ const Resume = ({ darkMode, setDarkMode }) => {
                     </p>
                   </div>
                 </li>
+                */}
+
               </ul>
             </div>
           </div>
 
+
+          {/* LANGUAGES 
           <div className="py-5">
             <div className="flex">
               <HiGlobeEuropeAfrica className="text-5xl" />
@@ -254,60 +375,10 @@ const Resume = ({ darkMode, setDarkMode }) => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div>*/}
+          
 
-          <div className="py-5">
-            <div className="flex">
-              <BiBookReader className="text-5xl" />
-              <h2 className="text-4xl px-5 font-anton text-teal-400">
-                Professional Experience
-              </h2>
-            </div>
-            <div>
-              <ul>
-                <li className="flex justify-between py-3">
-                  <div>
-                    <p className="font-bold dark:text-white">Internship</p>
-                    <p className="italic dark:text-white">
-                      Aksaray Mahmudiye Middle Scholl
-                    </p>
-                    <p className="text-gray-800 dark:text-white">
-                      Worked as a Teacher
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-gray-800 dark:text-white">
-                      02/2022 – 05/2022
-                    </p>
-                    <p className="text-gray-800 dark:text-white">
-                      Istanbul, Turkey
-                    </p>
-                  </div>
-                </li>
-                <li className="flex justify-between py-3">
-                  <div>
-                    <p className="font-bold dark:text-white">Internship</p>
-                    <p className="italic  dark:text-white">
-                      Gazi Imam Hatip Middle Scholl
-                    </p>
-                    <p className="text-gray-800 dark:text-white">
-                      Worked as a Teacher
-                    </p>
-                  </div>
-
-                  <div>
-                    <p className="text-gray-800 dark:text-white">
-                      09/2021 – 01/2022
-                    </p>
-                    <p className="text-gray-800 dark:text-white">
-                      Istanbul, Turkey
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
+          {/*  Certificates  */}  
           <div className="py-5">
             <div className="flex">
               <GrCertificate className="text-5xl" />
@@ -316,21 +387,41 @@ const Resume = ({ darkMode, setDarkMode }) => {
               </h3>
             </div>
             <div className="grid gap-x-72 grid-cols-2 py-5">
-              <div className="">
+            <div className="">
                 <p className="font-bold dark:text-white">
-                  University of Michigan
+                Data Analyst in Power BI
                 </p>
                 <p className="italic dark:text-white">
-                  Programming for Everybody(Getting started Python)
+                By Datacamp
+                </p>
+              </div>
+              <div className="">
+                <p className="font-bold dark:text-white">
+                Python - Data Analytics - Real World Hands-on Projects
+                </p>
+                <p className="italic dark:text-white">
+                Udemy
+                </p>
+              </div>
+              <div className="">
+                <p className="font-bold dark:text-white">
+                Introduction to BigQuery
+                </p>
+                <p className="italic dark:text-white">
+                By Datacamp
+                </p>
+              </div>
+              <div className="">
+                <p className="font-bold dark:text-white">
+                Programming for Everybody(Getting started Python)
+                </p>
+                <p className="italic dark:text-white">
+                  University of Michigan
                 </p>
               </div>
               <div className="">
                 <p className="font-bold dark:text-white">Machine Learning</p>
                 <p className="italic dark:text-white">Online Egitim Devi</p>
-              </div>
-              <div className="">
-                <p className="font-bold dark:text-white">2.Bilisim Zirvesi</p>
-                <p className="italic dark:text-white">Beykent University</p>
               </div>
               <div className="">
                 <p className="font-bold dark:text-white">Back To Future</p>
@@ -341,10 +432,12 @@ const Resume = ({ darkMode, setDarkMode }) => {
             </div>
           </div>
 
+          {/* Skills 
+
           <div className="py-5">
             <div className="flex">
               <GiNinjaHead className="text-5xl" />
-              <h2 className="text-4xl px-5 font-anton text-teal-400">Skills</h2>
+              <h2 className="text-4xl px-5 font-anton text-teal-400">TECHNICAL SKILLS</h2>
             </div>
             <div>
               <ul className="grid gap-x-72 grid-cols-2 py-5">
@@ -436,7 +529,9 @@ const Resume = ({ darkMode, setDarkMode }) => {
               </ul>
             </div>
           </div>
+          */}
 
+          {/* REferences */}
           <div className="py-5">
             <div className="flex">
               <TbDna className="text-5xl" />
@@ -478,13 +573,15 @@ const Resume = ({ darkMode, setDarkMode }) => {
               </div>
             </div>
           </div>
-          <div className="py-5">
+          {/*
+                    <div className="py-5">
             <div className="flex">
               <GiGuitar className="text-5xl" />
               <h2 className="text-4xl px-5 font-anton text-teal-400">
                 Interests{" "}
               </h2>
             </div>
+            {/*
             <div>
               <ul className="grid gap-x-72 grid-cols-3 py-5">
                 <li className="border-solid border-2 border-black  m-4 text-center font-bold rounded-lg dark:text-white dark:border-white">
@@ -510,7 +607,8 @@ const Resume = ({ darkMode, setDarkMode }) => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div>*/}
+
         </section>
       </main>
     </div>
