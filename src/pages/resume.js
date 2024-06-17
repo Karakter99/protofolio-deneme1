@@ -24,6 +24,8 @@ import {
   AiFillLinkedin,
   AiOutlineLinkedin,
   AiFillGithub,
+  AiOutlineGithub,
+  
 } from "react-icons/ai";
 import { GiNinjaHead, GiGuitar } from "react-icons/gi";
 import { BiBookReader } from "react-icons/bi";
@@ -33,16 +35,16 @@ import { TbDna } from "react-icons/tb";
 
 const Resume = ({ darkMode, setDarkMode }) => {
   return (
-    <div>
+    <div className="text-gray-900">
       <main>
         <section className="">
-          <div className="flex justify-between">
+          <div className="flex  justify-between">
             <div>
               <div className="flex justify">
                 <h2 className="font-anton selection text-xl py-2 pr-10 text-cyan-500 md:text-2xl lg:text-4xl dark:text-cyan-300">
                   Yakup Akyniyazov
                 </h2>
-                <h3 className="text-l py-2 font-medium md:text-xl pt-3 lg:text-2xl dark:text-white">
+                <h3 className="text-l py-2 font-medium  md:text-xl pt-3  lg:text-2xl dark:text-white">
                   Junior Data Analyst
                 </h3>
               </div>
@@ -107,6 +109,7 @@ const Resume = ({ darkMode, setDarkMode }) => {
                    */}
                   {/*  LINKS */}   
                   <li className="text-3xl flex pt-3">
+                   
                     <a
                       href="https://www.linkedin.com/in/yakup-akiniyazov-5443b5210/"
                       className=""
