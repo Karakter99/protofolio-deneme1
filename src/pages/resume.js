@@ -25,19 +25,19 @@ import {
   AiOutlineLinkedin,
   AiFillGithub,
   AiOutlineGithub,
-  
+
 } from "react-icons/ai";
 import { GiNinjaHead, GiGuitar } from "react-icons/gi";
 import { BiBookReader } from "react-icons/bi";
 import { GrCertificate } from "react-icons/gr";
-import { FaHackerrank } from "react-icons/fa";
+import { FaHackerrank  } from "react-icons/fa";
 import { TbDna } from "react-icons/tb";
 
 const Resume = ({ darkMode, setDarkMode }) => {
   return (
-    <div className="text-gray-900">
+    <div className="">
       <main>
-        <section className="">
+        <section className="text-gray-900 ">
           <div className="flex  justify-between">
             <div>
               <div className="flex justify">
@@ -109,17 +109,30 @@ const Resume = ({ darkMode, setDarkMode }) => {
                    */}
                   {/*  LINKS */}   
                   <li className="text-3xl flex pt-3">
-                   
+                    {darkMode ? (                   
                     <a
                       href="https://www.linkedin.com/in/yakup-akiniyazov-5443b5210/"
-                      className=""
+                      className=" text-white"
                     >
+                      <AiOutlineLinkedin />
+                    </a>): 
+                      (                    
+                      <a href="https://www.linkedin.com/in/yakup-akiniyazov-5443b5210/" className="" >
                       <AiFillLinkedin />
                     </a>
-                    <a a href="https://github.com/Karakter99" className="px-2">
-                      <AiFillGithub />
-                    </a>
-                    <a a href="https://github.com/Karakter99" className="px-2">
+                      )
+                    }
+                   
+                    {darkMode ? (                    
+                      <a a href="https://github.com/Karakter99" className="px-2 text-white">
+                      <AiOutlineGithub />
+                    </a>) : (
+                        <a a href="https://github.com/Karakter99" className="px-2">
+                        <AiFillGithub />
+                      </a>
+                    )}
+
+                    <a a href="https://github.com/Karakter99" className="px-2 text=white">
                       <FaHackerrank />
                     </a>
                   </li>
